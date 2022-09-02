@@ -865,7 +865,9 @@ body {
 
 .copyright-link:is(:hover, :focus) {color: var(--ultramarine-blue);}
 
-
+.traker {
+  display: none;
+}
 
 /*-----------------------------------*\
   #BACK TO TOP
@@ -1061,7 +1063,7 @@ body {
 */
 
 @media (min-width: 992px) {
-  .traker {visibility: visible;}
+  .traker {display: block;}
   /**
   * CUSTOM PROPERTY
   */
@@ -1161,7 +1163,6 @@ body {
 
   /* traker */
   .traker {
-    visibility: visible;
     position: fixed;
     transform: translate(-50%, -50%);
     width: 40px;
